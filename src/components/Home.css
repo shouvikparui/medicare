@@ -1,0 +1,47 @@
+.home-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 136, 40);
+
+}
+
+.home-page .container {
+    text-align: center;
+
+}
+
+.home-page .container .portfolio {
+    font-size: 100px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+
+
+
+
+}
+.home-page .container .portfolio span{
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+
+}
+.home-page .container h2{
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+
+}
+.home-page .container button{
+    width: 150px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid yellowgreen;
+    background-color: rgb(209, 136, 40);
+
+    
+
+}

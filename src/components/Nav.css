@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #111;
+    
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    position:relative;
+    top: 7px;
+}
+.navbar ul li{
+    cursor: pointer;
+    list-style-type: none;
+}
+.navbar ul li a{
+   text-decoration: none;
+}
+@media screen and (max-width:900px) {
+    .navbar ul li span{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .navbar {
+        width: 90%;
+    }
+    
+}
